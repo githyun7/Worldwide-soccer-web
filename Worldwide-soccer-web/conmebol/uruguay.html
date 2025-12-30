@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uruguay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html" class="home-link">WORLDWIDE SOCCER WEB</a></h1>
+    
+        <!-- Hamburger Button (hidden on desktop) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav class="menu">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Tournaments</a>
+                <div class="dropdown-content">
+                    <a href="../world_men.html">Men's World Cup</a>
+                    <a href="../world_women.html">Women's World Cup</a>
+                    <a href="../world_youth.html">Youth World Cup</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">UEFA</a>
+                <div class="dropdown-content">
+                    <a href="../uefa/england.html">England</a>
+                    <a href="../uefa/spain.html">Spain</a>
+                    <a href="../uefa/germany.html">Germany</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">AFC</a>
+                <div class="dropdown-content">
+                    <a href="../afc/korea.html">Korea</a>
+                    <a href="../afc/japan.html">Japan</a>
+                    <a href="../afc/australia.html">Australia</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CAF</a>
+                <div class="dropdown-content">
+                    <a href="../caf/egypt.html">Egypt</a>
+                    <a href="../caf/senegal.html">Senegal</a>
+                    <a href="../caf/morocco.html">Morocco</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn active">CONMEBOL</a>
+                <div class="dropdown-content">
+                    <a href="argentina.html">Argentina</a>
+                    <a href="brazil.html">Brazil</a>
+                    <a href="uruguay.html">Uruguay</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CONCACAF</a>
+                <div class="dropdown-content">
+                    <a href="../concacaf/mexico.html">Mexico</a>
+                    <a href="../concacaf/usa.html">USA</a>
+                    <a href="../concacaf/canada.html">Canada</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">OFC</a>
+                <div class="dropdown-content">
+                    <a href="../ofc/new_zealand.html">New Zealand</a>
+                    <a href="../ofc/fiji.html">Fiji</a>
+                    <a href="../ofc/papua_new_guinea.html">Papua New Guinea</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="country-page">
+    
+        <section class="big-title">
+            <h2>Uruguay
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
+                     class="logo-img" alt="Uruguay Flag">
+            </h2>
+        </section>
+    
+        <section class="map-section">
+            <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/INBHKJGXHJP6HELUD2EV6UI7ZE.jpg"
+                 class="main-img" alt="Uruguay Soccer">
+        </section>
+    
+        <hr class="separator">
+    
+        <section class="table-section">
+            <table class="info-table">
+                <tr><th>Domestic League</th><td>Primera División Uruguaya</td></tr>
+                <tr><th>Copa America Titles</th><td>15</td></tr>
+                <tr><th>World Cup Appearances</th><td>13</td></tr>
+                <tr><th>Best World Cup Finish</th><td>Winners (1930, 1950)</td></tr>
+                <tr><th>Recent Major Result</th><td>Copa America 2011 Winner</td></tr>
+            </table>
+        </section>
+    
+        <hr class="separator">
+    
+        <section class="purpose-section">
+            <p>
+                Uruguay is a historic football powerhouse, winning the first-ever FIFA World Cup in 1930 and again in 1950. The country has a strong Copa America record with 15 titles and is famous for producing world-class players like Luis Suárez and Diego Forlán.
+            </p>
+            <p>
+                Uruguay’s domestic league, the Primera División Uruguaya, continues to nurture talented players. The nation remains an influential football country, known for its tactical discipline, technical skill, and passion for the game.
+            </p>
+        <hr class="separator">
+    
+    </main>
+
+    <script>
+    function toggleMenu() {
+       document.querySelector('.menu').classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

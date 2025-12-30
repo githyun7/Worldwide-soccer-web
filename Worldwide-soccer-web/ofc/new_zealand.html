@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Zealand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html" class="home-link">WORLDWIDE SOCCER WEB</a></h1>
+        <!-- Hamburger Button (hidden on desktop) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="menu">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Tournaments</a>
+                <div class="dropdown-content">
+                    <a href="../world_men.html">Men's World Cup</a>
+                    <a href="../world_women.html">Women's World Cup</a>
+                    <a href="../world_youth.html">Youth World Cup</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">UEFA</a>
+                <div class="dropdown-content">
+                    <a href="../uefa/england.html">England</a>
+                    <a href="../uefa/spain.html">Spain</a>
+                    <a href="../uefa/germany.html">Germany</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">AFC</a>
+                <div class="dropdown-content">
+                    <a href="../afc/korea.html">Korea</a>
+                    <a href="../afc/japan.html">Japan</a>
+                    <a href="../afc/australia.html">Australia</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CAF</a>
+                <div class="dropdown-content">
+                    <a href="../caf/egypt.html">Egypt</a>
+                    <a href="../caf/senegal.html">Senegal</a>
+                    <a href="../caf/morocco.html">Morocco</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn active">CONMEBOL</a>
+                <div class="dropdown-content">
+                    <a href="argentina.html">Argentina</a>
+                    <a href="brazil.html">Brazil</a>
+                    <a href="uruguay.html">Uruguay</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CONCACAF</a>
+                <div class="dropdown-content">
+                    <a href="../concacaf/mexico.html">Mexico</a>
+                    <a href="../concacaf/usa.html">USA</a>
+                    <a href="../concacaf/canada.html">Canada</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">OFC</a>
+                <div class="dropdown-content">
+                    <a href="../ofc/new_zealand.html">New Zealand</a>
+                    <a href="../ofc/fiji.html">Fiji</a>
+                    <a href="../ofc/papua_new_guinea.html">Papua New Guinea</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="country-page">
+    
+        <section class="big-title">
+            <h2>New Zealand
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg"
+                     class="logo-img" alt="New Zealand Flag">
+            </h2>
+        </section>
+        
+        <section class="map-section">
+            <img src="https://i.guim.co.uk/img/media/f00d5da6868887489dc5afcd541e536c32de0337/0_137_4800_2880/master/4800.jpg?width=620&dpr=2&s=none&crop=none"
+                 class="main-img" alt="New Zealand Soccer">
+        </section>
+        
+        <hr class="separator">
+        
+        <section class="table-section">
+            <table class="info-table">
+                <tr><th>Domestic League</th><td>A-League Men</td></tr>
+                <tr><th>OFC Nations Cup Titles</th><td>5</td></tr>
+                <tr><th>World Cup Appearances</th><td>2</td></tr>
+                <tr><th>Best World Cup Finish</th><td>Group Stage</td></tr>
+                <tr><th>Nickname</th><td>All Whites</td></tr>
+            </table>
+        </section>
+        
+        <hr class="separator">
+        
+        <section class="purpose-section">
+            <p>
+            New Zealand is the dominant force in Oceania football, consistently qualifying for intercontinental
+            playoffs and representing the region at major international tournaments.
+            </p>
+            
+            <p>
+            Known as the All Whites, the team is recognized for its physical strength, organization, and
+            competitive spirit. New Zealand continues to be the leading pathway for OFC teams to the World Cup.
+            </p>
+        <hr class="separator">
+    
+    </main>
+
+    <script>
+    function toggleMenu() {
+       document.querySelector('.menu').classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

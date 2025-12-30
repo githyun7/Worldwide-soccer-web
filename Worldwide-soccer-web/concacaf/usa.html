@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>United States</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html" class="home-link">WORLDWIDE SOCCER WEB</a></h1>
+        <!-- Hamburger Button (hidden on desktop) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav class="menu">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Tournaments</a>
+                <div class="dropdown-content">
+                    <a href="../world_men.html">Men's World Cup</a>
+                    <a href="../world_women.html">Women's World Cup</a>
+                    <a href="../world_youth.html">Youth World Cup</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">UEFA</a>
+                <div class="dropdown-content">
+                    <a href="../uefa/england.html">England</a>
+                    <a href="../uefa/spain.html">Spain</a>
+                    <a href="../uefa/germany.html">Germany</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">AFC</a>
+                <div class="dropdown-content">
+                    <a href="../afc/korea.html">Korea</a>
+                    <a href="../afc/japan.html">Japan</a>
+                    <a href="../afc/australia.html">Australia</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CAF</a>
+                <div class="dropdown-content">
+                    <a href="../caf/egypt.html">Egypt</a>
+                    <a href="../caf/senegal.html">Senegal</a>
+                    <a href="../caf/morocco.html">Morocco</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn active">CONMEBOL</a>
+                <div class="dropdown-content">
+                    <a href="argentina.html">Argentina</a>
+                    <a href="brazil.html">Brazil</a>
+                    <a href="uruguay.html">Uruguay</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CONCACAF</a>
+                <div class="dropdown-content">
+                    <a href="../concacaf/mexico.html">Mexico</a>
+                    <a href="../concacaf/usa.html">USA</a>
+                    <a href="../concacaf/canada.html">Canada</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="#" class="dropbtn">OFC</a>
+                <div class="dropdown-content">
+                    <a href="../ofc/new_zealand.html">New Zealand</a>
+                    <a href="../ofc/fiji.html">Fiji</a>
+                    <a href="../ofc/papua_new_guinea.html">Papua New Guinea</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="country-page">
+    
+        <section class="big-title">
+            <h2>United States
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+                     class="logo-img" alt="USA Flag">
+            </h2>
+        </section>
+        
+        <section class="map-section">
+            <img src="https://cdn.sanity.io/images/oyf3dba6/production/60239e21fabcb632921e61f37f64a57585a3231d-1920x1080.jpg"
+                 class="main-img" alt="USA Soccer">
+        </section>
+        
+        <hr class="separator">
+        
+        <section class="table-section">
+            <table class="info-table">
+                <tr><th>Domestic League</th><td>MLS</td></tr>
+                <tr><th>Gold Cup Titles</th><td>7</td></tr>
+                <tr><th>World Cup Appearances</th><td>11</td></tr>
+                <tr><th>Best World Cup Finish</th><td>3rd Place (1930)</td></tr>
+                <tr><th>Recent Achievement</th><td>CONCACAF Nations League Champions</td></tr>
+            </table>
+        </section>
+        
+        <hr class="separator">
+        
+        <section class="purpose-section">
+            <p>
+            The United States has experienced rapid growth in soccer development over the past two decades.
+            With increasing investment in youth academies and infrastructure, the national team has become
+            more competitive on the global stage.
+            </p>
+            
+            <p>
+            Major League Soccer has helped expand the sport nationwide, attracting international stars and
+            developing homegrown talent. The USA continues to strengthen its presence in international tournaments.
+            </p>
+        <hr class="separator">
+    
+    </main>
+
+    <script>
+    function toggleMenu() {
+       document.querySelector('.menu').classList.toggle('active');
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Australia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html" class="home-link">WORLDWIDE SOCCER WEB</a></h1>
+
+    <!-- Hamburger Button (hidden on desktop) -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <nav class="menu">
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Tournaments</a>
+            <div class="dropdown-content">
+                <a href="../world_men.html">Men's World Cup</a>
+                <a href="../world_women.html">Women's World Cup</a>
+                <a href="../world_youth.html">Youth World Cup</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn">UEFA</a>
+            <div class="dropdown-content">
+                <a href="../uefa/england.html">England</a>
+                <a href="../uefa/spain.html">Spain</a>
+                <a href="../uefa/germany.html">Germany</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn active">AFC</a>
+            <div class="dropdown-content">
+                <a href="korea.html">Korea</a>
+                <a href="japan.html">Japan</a>
+                <a href="australia.html">Australia</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn">CAF</a>
+            <div class="dropdown-content">
+                <a href="../caf/egypt.html">Egypt</a>
+                <a href="../caf/senegal.html">Senegal</a>
+                <a href="../caf/morocco.html">Morocco</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn">CONMEBOL</a>
+            <div class="dropdown-content">
+                <a href="../conmebol/argentina.html">Argentina</a>
+                <a href="../conmebol/brazil.html">Brazil</a>
+                <a href="../conmebol/uruguay.html">Uruguay</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn">CONCACAF</a>
+            <div class="dropdown-content">
+                <a href="../concacaf/mexico.html">Mexico</a>
+                <a href="../concacaf/usa.html">USA</a>
+                <a href="../concacaf/canada.html">Canada</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#" class="dropbtn">OFC</a>
+            <div class="dropdown-content">
+                <a href="../ofc/new_zealand.html">New Zealand</a>
+                <a href="../ofc/fiji.html">Fiji</a>
+                <a href="../ofc/papua_new_guinea.html">Papua New Guinea</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="country-page">
+
+    <section class="big-title">
+        <h2>Australia
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg"
+                 class="logo-img" alt="Australia Flag">
+        </h2>
+    </section>
+
+    <section class="map-section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS-Itd9pOjEk66gE4rPp5k5WQBMfahef1o1Q&s"
+             class="main-img" alt="Australia World Cup">
+    </section>
+
+    <hr class="separator">
+
+    <section class="table-section">
+        <table class="info-table">
+            <tr><th>Domestic League</th><td>A-League</td></tr>
+            <tr><th>Asian Cup Titles</th><td>1 (2015)</td></tr>
+            <tr><th>World Cup Appearances</th><td>6</td></tr>
+            <tr><th>Best World Cup Finish</th><td>Round of 16 (2022)</td></tr>
+            <tr><th>Recent Major Result</th><td>Asian Cup Quarterfinals (2023)</td></tr>
+        </table>
+    </section>
+
+    <hr class="separator">
+
+    <section class="purpose-section">
+        <p>
+            Australia joined the Asian Football Confederation in 2006, marking a major shift in its international soccer pathway. Since then, Australia has become one of the strongest teams in Asia, regularly competing for continental titles and consistently qualifying for the FIFA World Cup.
+        </p>
+
+        <p>
+            The national team is known for its physical strength, tactical organization, and growing technical ability. Australian soccer continues to develop through the A-League and increased participation in Asian competitions, strengthening its presence on the global stage.
+        </p>
+        <hr class="separator">
+
+    </main>
+
+    <script>
+    function toggleMenu() {
+        document.querySelector('.menu').classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
